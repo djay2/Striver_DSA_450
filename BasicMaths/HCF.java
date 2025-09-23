@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class Main {
+public class HCF {
     public static void main(String[] args) {
         // YOUR CODE GOES HERE
         // Please take input and print output to standard input/output (stdin/stdout)

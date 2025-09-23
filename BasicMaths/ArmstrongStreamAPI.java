@@ -1,7 +1,7 @@
 // using java 9
 
 import java.util.stream.IntStream;
-class Main {
+class ArmstrongStreamAPI {
   public static void main(String[] args) {
     
     int num=153;

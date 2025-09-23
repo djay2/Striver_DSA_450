@@ -1,4 +1,4 @@
-class Main {
+class CountOfDigitsStreamAPI {
 
     public static void main(String[] args) {
     

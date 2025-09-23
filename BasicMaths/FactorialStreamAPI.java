@@ -1,6 +1,6 @@
 import java.util.stream.IntStream;
 
-class Main {
+class FactorialStreamAPI {
 
     public static void main(String[] args) {
          // Output: 5
