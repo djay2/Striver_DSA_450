@@ -14,6 +14,7 @@ public class AllZerosToEnd {
                 list.set(index++, list.get(i));
             }
         }
+        // add zero to the remaining positions
         for(int j=index;j<list.size();j++)
             list.set(j,0);
 
