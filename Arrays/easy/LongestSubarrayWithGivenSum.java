@@ -6,10 +6,10 @@ public class LongestSubarrayWithGivenSum {
 
     public static void main(String[] args) {
 
-        List<Integer> list = Arrays.asList(1,1,1, 2, 6, 4, 12);
+        List<Integer> list = Arrays.asList(-1,0,1,2,0,3);
 
         System.out.println(PrefixSum(list,3)); // Time Complexity: O(n) , Space Complexity : O(1)
-        System.out.println(TwoPointerApproach(list,3)); // Time Complexity: O(n2) , Space Complexity : O(n)
+        System.out.println(TwoPointerApproach(list,2)); // Time Complexity: O(n2) , Space Complexity : O(n)
 
     }
 
