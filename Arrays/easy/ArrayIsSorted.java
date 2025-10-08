@@ -2,7 +2,7 @@
 //        | ---------------- | ---------- |
 //        | Time Complexity  | `O(n)`     |
 //        | Space Complexity | `O(1)`     |
-
+package Easy;
 
 import java.util.Arrays;
 import java.util.List;

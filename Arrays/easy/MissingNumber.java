@@ -1,4 +1,4 @@
-package easy;
+package Easy;
 //        | Complexity Type | Value |
 //        | --------------- | ----- |
 //        | Time            | O(n)  |

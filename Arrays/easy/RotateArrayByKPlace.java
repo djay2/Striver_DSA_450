@@ -1,3 +1,4 @@
+package Easy;
 //        | Metric           | Complexity |
 //        | ---------------- | ---------- |
 //        | Time Complexity  | `O(n)`     |
