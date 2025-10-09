@@ -15,7 +15,7 @@ public class UnionArrayUnsorted {
         Set<Integer> union = Stream.concat(list1.stream(), list2.stream())
                 .collect(Collectors.toCollection(TreeSet::new));
 
-        
+
         System.out.println(union);
 
         System.out.println(unionArray(list1,list2));
