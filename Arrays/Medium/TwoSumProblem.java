@@ -1,4 +1,4 @@
-package Easy;
+package Medium;
 
 import java.sql.Array;
 import java.util.ArrayList;
@@ -10,14 +10,14 @@ public class TwoSumProblem {
 
     public static void main(String[] args) {
 
-        List<Integer> list = Arrays.asList(6, 4, 3, 2, 6, 11);
+        List<Integer> list = Arrays.asList(6, 4, 3, 2, 9,1, 11);
 
         System.out.println(TwoPointerApproach(list,10));
     }
 
-    static List<Integer> TwoPointerApproach(List <Integer> list,int sum)
+    static List<List<Integer>> TwoPointerApproach(List <Integer> list,int sum)
     {
-        List<Integer> pairs=new ArrayList<>();
+        List<List<Integer>> pairs=new ArrayList<>();
         int i=0, j=list.size()-1;
         Collections.sort(list);
 
@@ -30,16 +30,18 @@ public class TwoSumProblem {
             else if(list.get(i)+list.get(j)>sum) j--;
             else
             {
-                pairs.add(list.get(i));
-                pairs.add(list.get(j));
+                List<Integer> list2 = new ArrayList<>();
+                list2.add(list.get(i));
+                list2.add(list.get(j));
+                pairs.add(list2);
                 i++; j--;
             }
         }
 
         if(pairs.isEmpty())
         {
-            pairs.add(-1);
-            pairs.add(-1);
+            pairs.add(Arrays.asList(-1,-1));
+
         }
         return pairs;
     }
